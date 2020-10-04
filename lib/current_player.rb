@@ -4,11 +4,11 @@ def turn_count(board1)
       if spaces == "X" || spaces == "O"
          counter += 1
       end
-      current_player(player)
+      current_player(board1)
     end
 end
 
-def current_player(player)
+def current_player(board1)
   if turn_count % 2 == 0 
     return "X"
   
